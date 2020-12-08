@@ -19,3 +19,5 @@
          screenshot chord -->
     <integer name="config_screenshotChordKeyTimeout">0</integer>
 </resources>
+
+
