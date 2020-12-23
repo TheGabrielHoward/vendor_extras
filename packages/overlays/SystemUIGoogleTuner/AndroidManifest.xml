@@ -19,7 +19,15 @@
     package="com.android.systemui.tuner"
     android:versionCode="1"
     android:versionName="1.0">
-    <overlay android:isStatic="true" android:priority="1" android:targetPackage="com.android.systemui"/>
 
-    <application android:hasCode="false"/>
+    <overlay
+    android:isStatic="true"
+    android:priority="1"
+    android:targetPackage="com.android.systemui">
+    </overlay>
+
+    <application
+    android:hasCode="false"
+    android:label="SystemUIGoogle Tuner">
+    </application>
 </manifest>

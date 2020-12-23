@@ -19,7 +19,15 @@
     package="com.android.settings.tuner"
     android:versionCode="1"
     android:versionName="1.0">
-    <overlay android:isStatic="true" android:priority="10" android:targetPackage="com.android.settings"/>
 
-    <application android:hasCode="false"/>
+    <overlay
+    android:isStatic="true"
+    android:priority="10"
+    android:targetPackage="com.android.settings">
+    </overlay>
+
+    <application
+    android:hasCode="false"
+    android:label="Settings Tuner">
+    </application>
 </manifest>
