@@ -15,7 +15,7 @@
   ~ limitations under the License.
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Show 5G when on 4G -->
-    <string name="data_connection_4g">5G</string>
-    <string name="data_connection_4g_plus">5G+</string>
+    <!-- Show 5G when on LTE -->
+    <string name="data_connection_lte">5G</string>
+    <string name="data_connection_lte_plus">5G+</string>
 </resources>
